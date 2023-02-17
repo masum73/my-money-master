@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Money Master</title>
+    <!-- tailwind CDN added -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome CDN added -->
+    <script src="https://kit.fontawesome.com/0b6d34a4f7.js" crossorigin="anonymous"></script>
+    <style>
+        button:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body class="bg-neutral-600">
+    <header>
+        <h1 class="text-sky-400 text-5xl font-bold text-center mt-12">Money Master💰</h1>
+    </header>
+    <main>
+        <section class="grid grid-cols-1 bg-gray-300 w-1/2 mx-auto mt-5">
+            <!-- income -->
+            <div class=" text-black text-lg font-semibold text-center">
+                <h1 class="mt-5 p-3 text-3xl">Income</h1>
+                <label for="">Income: </label>
+                <input class="" type="number" name="" id="">
+            </div>
+            
+            <!-- expenses -->
+            <div class="text-black text-lg font-semibold text-center">
+                <h1 class="mt-5 p-3 text-3xl">Expenses</h1>
+
+                <label for="">Food: </label>
+                <input class="" type="number" name="" id="">
+
+                <label for="">Rent: </label>
+                <input class="" type="number" name="" id="">
+               
+                <label for="">Clothes: </label>
+                <input class="" type="number" name="" id="">
+            </div>
+
+            <!-- calculate -->
+            <div class="mt-5 mx-auto text-black text-2xl font-semibold text-center">
+                <button class="px-12 py-3 bg-blue-500 text-white text-xl rounded-lg mb-5">Calculate</button>
+                <br>
+                <label for="">Total Expenses: </label>
+                <label for="">5500</label>
+                <br>
+                <label for="">Balance: </label>
+                <label for="">4500</label>
+            </div>
+
+            <!-- save -->
+            <div class=" grid grid-cols-4 text-black items-center justify-center text-lg font-semibold text-center">
+                <label for="">Save: </label>
+                <input class="" type="number" name="" id="">
+                <p class="text-2xl">%</p>
+                <button class="px-12 py-3 bg-blue-500 text-white text-xl rounded-lg m-3">Save</button>
+            </div>
+            <div class="mt-5 mb-12 mx-auto text-black text-2xl font-semibold text-center">
+                <label for="">Saving Amount: </label>
+                <label for="">2000</label>
+                <br>
+                <label for="">Remaining Balance: </label>
+                <label for="">2500</label>
+            </div>
+        </section>
+    </main>
+
+    <!-- JS file added -->
+    <script src="js/app.js"></script>
+</body>
+</html>
